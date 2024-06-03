@@ -1,0 +1,17 @@
+2024-05-31 21:00:40,292 - INFO - Copied: main_folder/project1.py to clone_folder/project1.py
+2024-05-31 21:00:40,293 - INFO - Copied: main_folder/text1.txt to clone_folder/text1.txt
+2024-05-31 21:00:40,294 - INFO - Copied: main_folder/new to clone_folder/new
+2024-05-31 21:00:40,294 - INFO - Copied: main_folder/text2.txt to clone_folder/text2.txt
+2024-05-31 21:02:03,717 - INFO - Copied: main_folder/project1.py to clone_folder/project1.py
+2024-05-31 21:02:03,717 - INFO - Copied: main_folder/new to clone_folder/new
+2024-05-31 21:02:03,717 - INFO - Copied: main_folder/text2.txt to clone_folder/text2.txt
+2024-05-31 21:02:03,717 - INFO - Deleted: clone_folder/text1.txt
+2024-06-03 10:42:53,955 - INFO - Copied: main_folder/project1.py to clone_folder/project1.py
+2024-06-03 10:42:53,956 - INFO - Copied: main_folder/new to clone_folder/new
+2024-06-03 10:42:53,956 - INFO - Copied: main_folder/text2.txt to clone_folder/text2.txt
+2024-06-03 10:43:31,191 - INFO - Copied: main_folder/project1.py to clone_folder/project1.py
+2024-06-03 10:43:31,191 - INFO - Copied: main_folder/new to clone_folder/new
+2024-06-03 10:43:31,191 - INFO - Copied: main_folder/text2.txt to clone_folder/text2.txt
+2024-06-03 10:54:34,765 - INFO - Copied: main_folder/project1.py to clone_folder/project1.py
+2024-06-03 10:54:34,766 - INFO - Copied: main_folder/new to clone_folder/new
+2024-06-03 10:54:34,767 - INFO - Copied: main_folder/text2.txt to clone_folder/text2.txt
