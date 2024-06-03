@@ -42,7 +42,7 @@ def synchro_folders(source_folder_path: str, target_folder_path: str) -> None:
         source_file_path = os.path.join(source_folder_path, relative_path)
         target_file_path = os.path.join(target_folder_path, relative_path)
 
-        if relative_path not in target_file_hashes:
+        if relative_path not in target_folder_path:
             os.makedirs(os.path.dirname(target_file_path), exist_ok=True)
             shutil.copy2(source_file_path, target_file_path)
             logging.info(f"Copied: {source_file_path} to {target_file_path}")
@@ -57,7 +57,7 @@ def synchro_folders(source_folder_path: str, target_folder_path: str) -> None:
             logging.info(f"Deleted: {target_file_path}")
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description="Synchronize two folders.")
     parser.add_argument("source", help="Path to the source folder")
     parser.add_argument("target", help="Path to the target folder")
@@ -76,7 +76,10 @@ def main():
         sys.exit(1)
 
     while True:
-        synchro_folders(source_folder_path, target_folder_path)
+        try:
+            synchro_folders(source_folder_path, target_folder_path)
+        except Exception as e:
+            logging.error(f"Error during synchronization: {e}")
         time.sleep(sync_interval)
 
 
